@@ -53,14 +53,85 @@
         <!-- /.navbar -->
         <div class="hero">
             <div class="container">
-                    <h1 class="hero__title">
-                            Гарантия качества <br>и 100% материальная <br>ответственность</h1>
+                <div class="hero__text">
+                   <h1 class="hero__title">
+                            Гарантия качества и 100%<br>материальная ответственность</h1>
                     <span class="hero__subtitle">генеральная уборка от 90 руб/м2</span>
-                    <button class="button hero__button">заказать уборку</button>
+                    
+                </div>
+                 <button class="button hero__button">заказать уборку</button>    
             </div>
         </div>
         <!-- /.hero -->
     </header>
+    <main>
+        <section class="offer bg-secondary">
+            <div class="container">
+                <div class="offer__block offer-block">
+                    <h2 class="offer__title">Оставьте заявку на расчет</h2>
+                    <span class="offer__subtitle">и получите скидку 30% на производимую уборку</span>
+                    <form action="#" class="form offer__form">
+                        <div class="form__row">
+                            <div class="form__group">
+                                <label for="" class="form__label">Тип уборки</label>
+                                <select name="mad-type" class="input form__input">
+                                    <option value="no-clean">- Не указано -</option>
+                                    <option value="s-clean">Быстрая</option>
+                                    <option value="g-clean">Генеральная</option>
+                                    <option value="r-clean">После ремонта</option>
+                                </select>
+                            </div>
+                            <div class="form__group">
+                                <label for="" class="form__label">Количество комнат</label>
+                                <select name="mad-type" class="input form__input">
+                                        <option value="no-clean">- Не указано -</option>
+                                        <option value="">1 комната</option>
+                                        <option value="">2 комнаты</option>
+                                        <option value="">3 комнаты</option>
+                                        <option value="">4 комнаты</option>
+                                        <option value="">5+ комнат</option>
+                                    </select>
+                            </div>
+                            <div class="form__group">
+                                <label for="" class="form__label">Вариант уборки</label>
+                                <select name="variant" class="input form__input">
+                                        <option value="no-clean">- Не указано -</option>
+                                        <option value="clean">Разовая</option>
+                                        <option value="1-clean">По договору 1 раз в неделю</option>
+                                        <option value="2-clean">По договору 2 раза в неделю</option>
+                                    </select>
+                            </div>
+                        </div>
+                        <div class="form__row form__row-checkbox">
+                            <div class="form__checkbox">
+                                <input type="checkbox" class="checkbox" id="range-hood">
+                                <label class="checkbox-label" for="range-hood">                                    
+                                    Вымыть вытяжку
+                                </label>
+                            </div>
+                            <div class="form__checkbox">
+                                <input type="checkbox" class="checkbox" id="chandelier">
+                                <label class="checkbox-label" for="chandelier">
+                                    Помыть люстру
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__row">
+                            <div class="form__group">
+                                <input type="text" placeholder="Ваше имя" class="input form__input">
+                            </div>
+                            <div class="form__group">
+                                <input type="tel" placeholder="Ваш телефон" class="input form__input">
+                            </div>
+                            <div class="form__group">
+                                <input type="submit" class="button form__button" value="Получить скидку">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
     <!-- /.header -->
     <!--Подключение обратной связи-->
     <script type="text/javascript" src="https://spikmi.com/Widget?Id=2379"></script>

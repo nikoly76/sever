@@ -1,14 +1,26 @@
 .hero
-    background: #f1f1f1 url('../img/hero/hero-bg.jpg') no-repeat center top 80px
-    background-size: contain
-    padding-top: 180px
-    padding-bottom: 570px
+    background: #F2F3F5 url('../img/hero/Screen-Shot.png') no-repeat center top 80px
+    background-size: cover
+    padding-top: 100px
+    padding-bottom: 110px
+    &__text
+        margin-top: 50px
+        margin-bottom: 40px
+        padding: 20px
+        background: rgba(0, 0, 0, 0.5)
+        width: 50%
     &__title
         font-size: 30px
-        margin-bottom: 40px
+        color: #fff
+        margin-top: 0
+        margin-bottom: 15px
     &__subtitle
         display: block
         font-size: 20px
         +bold
-        margin-bottom: 67px
-    
+        color: #fff
+        margin-bottom: 10px
+@media (max-width: 768px)
+    .hero
+        &__text
+            width: 99%
