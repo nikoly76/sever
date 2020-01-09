@@ -49,7 +49,7 @@ body {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .section-title {
@@ -60,7 +60,17 @@ body {
 }
 
 .section__title {
-  margin-bottom: 100px;
+  margin-bottom: 5px;
+}
+
+.section-subtitle {
+  font-size: 20px;
+  text-align: center;
+}
+
+.section__subtitle {
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 .button-o {
@@ -128,7 +138,8 @@ body {
     font-size: 10px;
   }
   .section {
-    padding: 60px 0;
+    padding: 10px 0;
+    margin-bottom: 25px;
   }
   .section-title {
     font-size: 24px;
@@ -332,8 +343,8 @@ body {
 .offer-block {
   background: #fff url("../img/offer/form-bg.png") no-repeat center right;
   background-size: contain;
-  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
   padding: 80px;
   margin-top: -160px;
 }
@@ -447,6 +458,7 @@ body {
       flex-basis: 33.33%;
   text-align: center;
   margin-bottom: 100px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 991px) {
