@@ -2,12 +2,18 @@
     &-block
         display: flex
         justify-content: space-between
-        flex-wrap: wrap
+        flex-wrap: wrap            
         &__item
             flex-basis: 33.33%
             text-align: center
             margin-bottom: 100px
+            +bold
             text-transform: uppercase
+        &__subtitle
+            padding: 0 10px
+            font-size: 18px
+            +light
+            text-transform: lowercase
 @media (max-width: 991px)
     .features
         &-block
